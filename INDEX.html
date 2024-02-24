@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+
+form {
+	width: 100%;
+}
+td {
+	height: 45px;
+}
+
+h1 {
+	font-family:arial;
+}
+
+th {
+	background-color:gray;
+}
+</style>
+<body>
+
+<h1>Student Registration Form</h1>
+
+<form>
+<table style="width:100%">
+  <tr>
+    <th>First Name</th>
+	<td><input type="text" id="fname" name="fname" style="font-family:arial;"><br></td>
+  </tr>
+  <tr>
+    <th>Last Name</th>
+	<td><input type="text" id="lname" name="lname"><br></td>
+  </tr>
+  <tr>
+    <th>Email</th>
+	<td><input type="text" id="ename" name="ename"><br></td>
+  </tr>
+  <tr>
+  <th>Gender</th>
+    <td><select name="gender" id="gender">
+  <option value="m">Male</option>
+  <option value="f">Female</option>
+  <option value="o">Other</option></td>
+	
+</select>
+  </tr>
+  <tr>
+    <th>Date of Birth</th>
+	<td><input type="text" id="birth" name="birth"><br></td>
+  </tr>
+  <tr>
+    <th>Address</th>
+	<td><textarea id="address" name="address" rows="4" cols="50">
+</textarea><br></td>
+  </tr>
+  <tr>
+    <th>City</th>
+	<td><input type="text" id="city" name="city"><br></td>
+  </tr>
+  <tr>
+    <th>Zipcode</th>
+	<td><input type="text" id="zcode" name="zcode"><br></td>
+  </tr>
+  <tr>
+    <th></th>
+	<td><button type="button"style="background-color:#5dbea3;">Submit</button></td>
+
+
+  </tr>
+</table>
+</form>
+
+
+</body>
+</html>
