@@ -1,0 +1,139 @@
+body {
+    background-color: gray;
+    align-items: center;
+}
+
+.header {
+  position: fixed;
+  top: -1px;
+  width: 1905px;
+  height: 50px;
+  padding: 50px;
+  text-align: center;
+  background: #babcbc;
+  color: black;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+h1 {
+  position: fixed;
+  top: 25px;
+  left: 45%;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: -250px;
+  }
+
+.login {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    padding: 20px;
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+label {
+    font-size: 25px;
+    font-family: Arial;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    background-color: green;
+    border-width: 0px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333232;
+    height: 900px;
+    position: relative;
+    left: -10px;
+    top: -20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: Arial;
+    height: 50px;
+    position: relative;
+    top: 120px;
+    font-weight: bold;
+  }
+  
+ .d1 {
+    position: relative;
+    left: 20px;
+    top: 50px;
+ }
+
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ffffff;
+    color: black;
+    transition: 0.1s
+  }
+
+  footer {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 1905px;
+        height: 100px;
+        left: -1px;
+        background-color: #333232;
+        color: white;
+        font-family: Arial;
+        text-align: center;
+
+  }
+
+  p {
+    position: relative;
+    bottom: -24px;
+  }
+
+.greet {
+  position: fixed;
+  bottom: 500px;
+  left: 41%;
+ 
+ 
+}
+
+.logout {
+  position: fixed;
+  top: 400px;
+}
+
