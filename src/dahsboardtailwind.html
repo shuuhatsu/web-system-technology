@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Dashboard</title>
+    <link rel="stylesheet" href="tailwindcssoutput.css">
+</head>
+<body class="bg-slate-600">
+
+    <!-- Navigation bar -->
+    <div class="fixed top-0 left-0 z-10 p-4">
+        <div class="flex flex-col gap-4">
+            <a href="#" class="bg-cyan-600 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Home</a>
+            <a href="#" class="bg-cyan-600 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Missions</a>
+            <a href="#" class="bg-cyan-600 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">About</a>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl mx-auto my-20">
+        <!-- Image 1 -->
+        <div class="relative">
+            <img src="jogo1.webp" alt="Gallery Image 1" class="w-full rounded-lg">
+            <div class="absolute inset-0 flex items-end justify-start bg-black bg-opacity-50 text-white p-2">
+                Defeat a unregistered special grade
+            </div>
+        </div>
+        <!-- Image 2 -->
+        <div class="relative">
+            <img src="mahito.gif" alt="Gallery Image 2" class="w-full rounded-lg">
+            <div class="absolute inset-0 flex items-end justify-start bg-black bg-opacity-50 text-white p-2">
+                Deafet Mahito(Very hard one unregistered special grade)
+            </div>
+        </div>
+        <!-- Image 3 -->
+        <div class="relative">
+            <img src="sukuna.webp" alt="Gallery Image 3" class="w-full rounded-lg">
+            <div class="absolute inset-0 flex items-end justify-start bg-black bg-opacity-50 text-white p-2">
+                Deafet Sukuna(Impossible to defeat)
+            </div>
+        </div>
+        <!-- Add more images as needed -->
+    </div>
+
+</body>
+</html>
